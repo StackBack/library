@@ -28,10 +28,6 @@ public class LibraryController {
         return bookService.getFreeBook();
     }
 
-//    @GetMapping("notfreebook")
-//    public List<Book> getNotFreeBook(){
-//        return bookService.getNotFreeBook();
-//    }
 
     @GetMapping("userWithBook")
     public List<Book> userHaveBook() {
